@@ -1,7 +1,9 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{graphicx}
 \begin{document}
+\includegraphics[width=0.5\textwidth]{imagen1.eps}
 \title{Título del artículo}
 \author{Nombre y Apellido \\
 	Técnicas Experimentales~\footnote{Universidad de La Laguna}
@@ -20,6 +22,16 @@
 \end{abstract}
 
 \section{Primeras sección}
+
+\bigskip
+\begin{tabular}{|l|c|c|}
+\hline
+  Nombre & Edad & Nota \\ \hline
+  Pepe   &  24  &   10 \\ \hline
+  Juan   &  19  &    8 \\ \hline
+  Luis   &  21  &    9 \\ \hline
+\end{tabular}
+
 Si simplemente se desea escribir texto normal en \LaTeX{}, 
 sin complicadas f\'ormulas matem\'aticas o efectos epeciales
 cmomo cambios de fuente, entonces simplemente tiene que escribir

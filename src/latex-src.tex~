@@ -1,7 +1,9 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{graphicx}
 \begin{document}
+\includegraphics[width=0.5\textwidth]{imagen1.eps}
 \title{Título del artículo}
 \author{Nombre y Apellido \\
 	Técnicas Experimentales~\footnote{Universidad de La Laguna}
@@ -14,12 +16,22 @@
   y deben ser escritas entre dos símbolos \$
   Los super índices se obtienen con el símbolo \^{}, y
   los subíndices con el símbolo \_.
-  Por ejemplo:$x^2 \times y^\alpha + \beta}$.
+  Por ejemplo:$x^2 \times y^{\alpha + \beta}$.
   También se pueden escribir fórmulas centradas:
   \[h^2=a^2 + b^2 \]
 \end{abstract}
 
 \section{Primeras sección}
+
+\bigskip
+\begin{tabular}{|l|c|c|}
+\hline
+  Nombre & Edad & Nota \\ \hline
+  Pepe   &  24  &   10 \\ \hline
+  Juan   &  19  &    8 \\ \hline
+  Luis   &  21  &    9 \\ \hline
+\end{tabular}
+
 Si simplemente se desea escribir texto normal en \LaTeX{}, 
 sin complicadas f\'ormulas matem\'aticas o efectos epeciales
 cmomo cambios de fuente, entonces simplemente tiene que escribir
